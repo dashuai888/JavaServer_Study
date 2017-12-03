@@ -2,10 +2,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.dashuai</groupId>
-    <artifactId>chapter02</artifactId>
+    <artifactId>chapter04-weibo</artifactId>
     <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>chapter01 Maven Webapp</name>
+    <name>chapter04-weibo Maven Webapp</name>
     <url>http://maven.apache.org</url>
     <dependencies>
         <dependency>
@@ -14,10 +14,16 @@
             <version>6.0</version>
             <scope>provided</scope>
         </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.5</version>
+        </dependency>
     </dependencies>
 
     <build>
-        <finalName>chapter02</finalName>
+        <finalName>chapter04-weibo</finalName>
 
         <plugins>
             <plugin>

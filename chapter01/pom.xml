@@ -2,7 +2,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.dashuai</groupId>
-    <artifactId>chapter02</artifactId>
+    <artifactId>chapter01</artifactId>
     <packaging>war</packaging>
     <version>1.0-SNAPSHOT</version>
     <name>chapter01 Maven Webapp</name>
@@ -17,7 +17,7 @@
     </dependencies>
 
     <build>
-        <finalName>chapter02</finalName>
+        <finalName>chapter01</finalName>
 
         <plugins>
             <plugin>

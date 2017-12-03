@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>新会员注册</title>
+
+    <link href="static/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<!-- Fixed navbar -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">dashuai的微博</a>
+        </div>
+
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">首页</a></li>
+                <li><a href="#about">关于我们</a></li>
+                <li><a href="#contact">联系我们</a></li>
+            </ul>
+        </div> <!--/.nav-collapse -->
+    </div>
+</nav> <!--/nav-->
+
+<div class="jumbotron">
+    <div class="container">
+        <h3> Hello ! 这是我的微博 1.0 系统 </h3>
+        <p>welcome to dashuaiWeiChart 1.0 system.</p>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-xs-4"></div>
+        <div class="col-xs-4">
+            <form class="form-control-static" method="post" action="register.do">
+                <div class="form-group">
+                    <h3 class="form-signin-heading" align="center">注册为会员</h3>
+                </div>
+
+                <div class="form-group">
+                    <label for="inputEmail" class="sr-only">邮箱</label>
+                    <input type="email" name="email" class="form-control" id="inputEmail" placeholder="邮箱" required
+                           autofocus>
+                </div>
+
+                <div class="form-group">
+                    <label for="inputUser" class="sr-only">用户名</label>
+                    <input type="text" name="username" class="form-control" id="inputUser"
+                           placeholder="由字母、数字、或者下划线组成，且开头必须是字母，长度不能超过16位" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="inputPassword" class="sr-only">密码</label>
+                    <input type="password" name="password" class="form-control" id="inputPassword"
+                           placeholder="由字母和数字构成，长度不能超过16位"
+                           required>
+                </div>
+
+                <div class="form-group">
+                    <label for="inputConfirmedPassword" class="sr-only">确认密码</label>
+                    <input type="password" name="confirmedPassword" class="form-control" id="inputConfirmedPassword"
+                           placeholder="确认密码" required>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="btn btn-lg btn-primary btn-block">点我注册</button>
+                </div>
+            </form>
+        </div>
+        <div class="col-xs-4"></div>
+    </div> <!-- /row -->
+</div> <!-- /container -->
+
+<div class="container">
+    <div class="row">
+        <div class="modal-footer">
+            <p>&copy;Created by wangyishuai on 2017.</p>
+        </div>
+    </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="static/js/bootstrap/bootstrap.min.js"></script>
+</body>
+</html>
